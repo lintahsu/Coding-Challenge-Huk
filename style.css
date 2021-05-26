@@ -1,0 +1,76 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ccc;
+    font-family: Arial, sans-serif, Helvetica, sans-serif;
+    font-size: .9em;
+}
+
+#App h1 {
+    margin: 2rem auto;
+    color: #333;
+}
+
+#App {
+    height: auto;
+    text-align: center;
+    border-radius: 24px;
+    border: 1px solid #efefef;
+    width: 100vw;
+    padding: 2rem;
+    align-self: center;
+    background-color: #fff;
+    box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 10 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+#App img {
+    width: 50vw;
+    max-width: 300px;
+}
+
+#App select {
+    width: 10rem;
+    padding: .5rem;
+    font-size: inherit;
+    border-radius: 3px;
+    border: 1px solid #CCC;
+    margin-bottom: .5rem;
+}
+
+#App label {
+    color: #333;
+    width: 6rem;
+    font-weight: bold;
+    padding-right: 1rem;
+    text-transform: uppercase;
+}
+
+#App select {
+    width: 10rem;
+}
+
+#msg {
+    display: none;
+    border-radius: 12px;
+    background-color: #EDF1F2;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+/* For not-mobile device*/
+
+@media (min-width: 576px) {
+    body {
+        font-size: 1em;
+    }
+    #App {
+        max-width: 700px;
+    }
+    #App img {
+        max-width: 400px;
+    }
+}
