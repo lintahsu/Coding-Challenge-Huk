@@ -2,6 +2,6 @@
 A Car Brand/Model Selector using API, JavaScript and CSS w/o any Frameworks.
 
 * API request can be done while disable CORS temporally
- (extension : https://mybrowseraddon.com/access-control-allow-origin.html)
+ (extension : <a href="https://lindahsu.cc/projects/huk/" target="_blank">https://mybrowseraddon.com/access-control-allow-origin.html</a>)
 * RWD Design
-* Live version: [go](http://stackoverflow.com){:target="_blank" rel="noopener"}
+* Live version: <a href="https://lindahsu.cc/projects/huk/" target="_blank">here</a>
